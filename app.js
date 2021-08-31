@@ -15,7 +15,7 @@ let messages = [];
 setInterval(() => {
   const quantityMessage = [1, 2, 3, 4];
   let quantity = Math.floor(Math.random() * quantityMessage.length);
-  // messages = [];
+  messages = [];
   while (quantity > 0) {
     messages.push(fakeData());
     quantity -= 1;
